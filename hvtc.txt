@@ -1,0 +1,8 @@
+GradeComponents: chứa các điểm thành phần của một môn học
+GradeCategory: chứa các điểm thành phần
+TeachingSchedules: chứa các lịch dạy học của Intructor,(thông qua bảng UserClassSemester để lấy được class_id, từ đó có thể lấy được lịch học của một Student)
+UserSubjectSemester: 1 Student có thể học nhiều môn trong 1 học kỳ, 1 Intructor có thể dạy nhiều môn trong 1 học kỳ
+UserClassSemester: 1 Student có thể có nhiều lớp học trong 1 học kỳ,1 Intructor có thể dạy nhiều class trong 1 học kỳ
+ExamGenre: chứa các thể loại thi(nghe ,nói,đọc,viết)
+ExamSchedules: chứa các lịch thi của từng Student và chứa các lịch trông thi của Intructor
+Attendances: chứa các thông tin điểm danh của Student trong từng môn học

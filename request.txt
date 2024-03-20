@@ -1,0 +1,5 @@
+sửa ROLE, Attendances 
+trong thằng TeachingSchedules add thêm ngày (column name Date) và ngày có định dạng sau '12-03-2024', 
+trong thằng Slot thì time_start và time_end có dạng sau '22:30:13'
+
+đầu vào của /attendance/getlist/ là 12-03-2024+22:30:13
